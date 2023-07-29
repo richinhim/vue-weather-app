@@ -1,0 +1,18 @@
+1.4-1
+vue create vue-weather-app
+https://github.com/richinhim/vue-weather-app.git
+
+
+2. 4-2 OPEN API 활용
+
+https://openweathermap.org/api
+
+
+https://web.postman.co/home
+
+https://www.postman.com/downloads/
+
+
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+
+https://api.openweathermap.org/data/2.5/weather?appid=eb8c17c7e444065139587353869e392a&q=seoul
