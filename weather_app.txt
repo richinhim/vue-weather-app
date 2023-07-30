@@ -21,4 +21,27 @@ https://api.openweathermap.org/data/2.5/weather?appid=eb8c17c7e44406513958735386
 4-3.컴포넌트 & 템플릿
 https://uigradients.com/#Shalala
 
+4-4.이벤트 핸들링 & http
+
+npm install axios --save
+
+공통업무/AA/PL/PM 업무수행
+
+mixin
+
+axios 사용시 promise 사용해야
+async await 사용 
+
+ async getWeatherInfo(city) {
+      const API_KEY = "eb8c17c7e444065139587353869e392a";
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${city.code}&appid=${API_KEY}`;
+      const res = await axios.get(url); // axios 사용시 promise 사용해야
+      console.log(res);
+    },
+
+https://openweathermap.org/img/wn/04d.png
+
+디스트럭처링(distructuring)
+
+
 

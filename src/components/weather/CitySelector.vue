@@ -31,6 +31,9 @@ export default {
     selectCity(city) {
       city.selected = !city.selected;
       //city.selected = true;
+
+      //부모로 이벤트를 전달해줘야
+      this.$emit("selectCity", city);
     },
   },
 };
