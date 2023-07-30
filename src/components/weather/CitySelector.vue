@@ -19,11 +19,11 @@ export default {
   data() {
     return {
       cities: [
-        { code: "seoul", label: "서울", selected: false },
-        { code: "tokyo", label: "도쿄", selected: false },
-        { code: "london", label: "런던", selected: false },
-        { code: "moscow", label: "모스크바", selected: false },
-        { code: "yakutsk", label: "야크추크", selected: false },
+        { code: "seoul", label: "Seoul", selected: false },
+        { code: "incheon", label: "Incheon", selected: false },
+        { code: "singapore", label: "Singapore", selected: false },
+        { code: "Kuala Lumpur", label: "Kuala Lumpur", selected: false },
+        { code: "Kota Bharu", label: "Kota Bharu", selected: false },
       ],
     };
   },
