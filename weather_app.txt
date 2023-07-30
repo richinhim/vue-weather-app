@@ -16,3 +16,9 @@ https://www.postman.com/downloads/
 https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 https://api.openweathermap.org/data/2.5/weather?appid=eb8c17c7e444065139587353869e392a&q=seoul
+
+
+4-3.컴포넌트 & 템플릿
+https://uigradients.com/#Shalala
+
+
