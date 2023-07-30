@@ -43,5 +43,19 @@ https://openweathermap.org/img/wn/04d.png
 
 디스트럭처링(distructuring)
 
+4-5.마무리 코딩 및 배포 
+
+https://github.com/richinhim/vue-weather-application.git
+
+git init
+
+git status
+
+git add .
+git commit -m  'first commit'
+
+git remote add origin https://github.com/richinhim/vue-weather-application.git
+
+git push -u origin master 
 
 
